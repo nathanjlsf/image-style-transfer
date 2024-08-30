@@ -1,6 +1,64 @@
-# Getting Started with Create React App
+# Neural Style Transfer Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application that performs neural style transfer on images using a React frontend and a Flask backend with TensorFlow.
+
+## Features
+
+- Upload content and style images
+- Perform neural style transfer
+- Real-time progress tracking
+- Display the resulting stylized image
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js and npm installed
+- Python 3.7+ installed
+- pip (Python package manager) installed
+
+## Setup
+
+### Frontend (React)
+
+1. Navigate to the project directory
+2. Install the required npm packages:
+
+npm install
+
+### Backend (Flask)
+
+1. Navigate to the backend directory
+2. Install the required Python packages:
+pip install flask flask-cors pillow tensorflow numpy
+
+## Running the Application
+
+### Start the Frontend
+
+In the project directory, run:
+
+npm install react-app
+
+npm start
+
+This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Start the Backend
+
+In a separate terminal, navigate to the backend directory and run:
+
+python server.py
+
+This starts the Flask server on [http://localhost:5000](http://localhost:5000).
+
+## Usage
+
+1. Open the web application in your browser
+2. Upload a content image and a style image
+3. Click the "Generate New Image" button
+4. Wait for the style transfer process to complete
+5. View the resulting stylized image
 
 ## Available Scripts
 
@@ -8,36 +66,21 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in the development mode.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build` folder.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you eject, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time.
 
 ## Learn More
 
@@ -45,26 +88,14 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Troubleshooting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you encounter any issues, please check the following:
 
-### Analyzing the Bundle Size
+1. Ensure both frontend and backend servers are running
+2. Check the console for any error messages
+3. Verify that all required packages are installed
+4. Ensure your firewall is not blocking the application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If problems persist, please open an issue in the project repository.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

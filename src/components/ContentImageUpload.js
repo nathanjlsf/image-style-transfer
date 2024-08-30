@@ -1,7 +1,7 @@
 // ContentImageUpload.js
 import React, { useState } from 'react';
 
-const ContentImageUpload = () => {
+const ContentImageUpload = (props) => {
   const [contentImage, setContentImage] = useState(null);
 
   const handleContentImageChange = (e) => {
@@ -11,7 +11,7 @@ const ContentImageUpload = () => {
   return (
     <div className="upload-container">
       <h3>Upload Content Image</h3>
-      <input type="file" onChange={handleContentImageChange} />
+      <input src={props.contentImage} type="file" onChange={handleContentImageChange} />
       {contentImage && <p>Selected file: {contentImage.name}</p>}
     </div>
   );
