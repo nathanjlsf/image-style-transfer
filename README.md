@@ -108,3 +108,20 @@ If you encounter any issues, please check the following:
 
 If problems persist, please open an issue in the project repository.
 
+## Testing
+
+8-Hour/Overnight Image Processing
+![alt text](https://github.com/victorphan101/image-style-transfer/blob/main/Semantic-Aware%20Transfer%20for%20Image%20Analysis.png?raw=true)
+
+256x256 Pixel Image Processing Test (>30mins)
+![alt text](https://github.com/victorphan101/image-style-transfer/blob/main/256pixel-test.png?raw=true)
+
+256x256 Pixel Video Game Image Processing Test (>30mins)
+![alt text](https://github.com/victorphan101/image-style-transfer/blob/main/video-game-test.png?raw=true)
+
+Terminal Log for Content Image Loss and Style Image Loss Progress Overtime
+![alt text](https://github.com/victorphan101/image-style-transfer/blob/main/style-terminal-log.png?raw=true)
+
+Graphical Representation of Content Image Pixel Loss vs Style Image Pixel Loss for Output Image
+![alt text](https://github.com/victorphan101/image-style-transfer/blob/main/style-lost-graph.png?raw=true)
+
