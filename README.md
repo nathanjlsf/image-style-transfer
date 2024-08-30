@@ -1,6 +1,7 @@
 ## Semantic-Aware Style Transfer for Image Analysis
 CSC 480 - Cal Poly
 Instructor: Rodrigo Canaan
+
 Team Members:
 
 Juan Zavala,
