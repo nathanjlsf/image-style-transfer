@@ -9,7 +9,7 @@ Nathan Lee,
 Sarthak Kamerkar,
 Victor Phan
 
-This project is a web application that performs semantic style transfer on images using a React frontend and a Flask backend with TensorFlow.
+This project is a web application that applies semantic style transfer to images, built with a React frontend and a Flask backend powered by TensorFlow.
 
 ## Features
 
