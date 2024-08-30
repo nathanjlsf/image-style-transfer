@@ -1,12 +1,11 @@
 ## Semantic-Aware Style Transfer for Image Analysis
 CSC 480 - Cal Poly
-Instructor: [Instructor's Name]
-
+Instructor: Rodrigo Canaan
 Team Members:
 
-Juan Zavala
-Nathan Lee
-Sarthak Kamerkar
+Juan Zavala,
+Nathan Lee,
+Sarthak Kamerkar,
 Victor Phan
 
 This project is a web application that performs neural style transfer on images using a React frontend and a Flask backend with TensorFlow.
